@@ -40,6 +40,11 @@ public class Student {
  		float Average=Total/5;
  		System.out.println("Average of Marks"+Average);
 	  
+ 		System.out.println("Enter Mark6:");
+ 		byte mark6=obj.nextByte();
+ 		System.out.println("Mark6:"+mark6);
+ 		
+ 		
  		
 	   obj.close();
 					
